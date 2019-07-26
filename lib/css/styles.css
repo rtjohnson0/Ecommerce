@@ -28,7 +28,7 @@ footer {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 70px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -56,10 +56,6 @@ footer {
 .fa-instagram {
     background: #125688;
     color: white;
-}
-
-body {
-    background-color: gray;
 }
 
 #slideshow {
@@ -94,5 +90,65 @@ body {
 }
 
 .white h1 {
+    color: white;
+}
+
+
+/* .col-md-5 {
+    width: 100% !important;
+    max-width: 2000px;
+} */
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        max-width: 2000px;
+    }
+}
+
+form {
+    width: 50%;
+    margin: 10px auto;
+    line-height: 1.2;
+    border-style: inset 10px black;
+}
+
+form p {
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+em.error {
+    margin-left: 5px;
+    padding: 2px 4px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+}
+
+.has-error {
+    background-color: yellow;
+}
+
+legend {
+    border-style: inset 30px black;
+}
+
+nav li {
+    font-size: 25px;
+    padding: 40px;
+}
+
+.col-md-4 img,
+.card-body {
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+.card-text,
+.text-muted {
     color: white;
 }
