@@ -5,6 +5,20 @@ html {
     height: 100%;
 }
 
+@media (min-width: 768px) {
+    #slideshow>div>img {
+        right: -80px;
+    }
+}
+
+@media (min-width:600px) {
+    #slideshow {
+        height: 1100px;
+        position: inherit;
+        right: -400px;
+    }
+}
+
 p {
     color: black
 }
@@ -22,7 +36,6 @@ p {
 
 footer {
     border: 20px;
-    border-style: inset 30px black;
 }
 
 .fa {
@@ -93,23 +106,10 @@ footer {
     color: white;
 }
 
-
-/* .col-md-5 {
-    width: 100% !important;
-    max-width: 2000px;
-} */
-
-@media (min-width: 768px) {
-    .col-md-5 {
-        max-width: 2000px;
-    }
-}
-
 form {
     width: 50%;
     margin: 10px auto;
     line-height: 1.2;
-    border-style: inset 10px black;
 }
 
 form p {
@@ -131,10 +131,6 @@ em.error {
 
 .has-error {
     background-color: yellow;
-}
-
-legend {
-    border-style: inset 30px black;
 }
 
 nav li {
