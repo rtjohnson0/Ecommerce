@@ -1,5 +1,5 @@
 # E-Commerce Site
-
+### https://rtjohnson0.github.io/Ecommerce/.
 The products must be mainstream and professional.
 Site should validate for HTML & CSS validity as well as WCAG 2.0 AA web accessibility.
 
